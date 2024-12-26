@@ -23,9 +23,11 @@ specifiers:
   react-loader-spinner: 4.0.0
   react-router-dom: 5.2.0
   react-scripts: 4.0.3
+  react-simple-image-slider: 2.4.1
   react-slick: 0.28.1
   reactjs-popup: 2.0.5
   slick-carousel: 1.8.1
+  swiper: 11.1.15
 
 dependencies:
   '@testing-library/jest-dom': 5.11.9
@@ -42,9 +44,11 @@ dependencies:
   react-icons: 4.3.1_react@17.0.1
   react-loader-spinner: 4.0.0_react-dom@17.0.1+react@17.0.1
   react-router-dom: 5.2.0_react@17.0.1
+  react-simple-image-slider: 2.4.1
   react-slick: 0.28.1_react-dom@17.0.1+react@17.0.1
   reactjs-popup: 2.0.5_react-dom@17.0.1+react@17.0.1
   slick-carousel: 1.8.1
+  swiper: 11.1.15
 
 devDependencies:
   eslint-config-airbnb: 18.2.1
@@ -11912,6 +11916,10 @@ packages:
       - webpack-plugin-serve
     dev: true
 
+  /react-simple-image-slider/2.4.1:
+    resolution: {integrity: sha512-9T/WjsRThJup43QxzH202rLVNqaUK9P8izTiWOfLcc5w3QygU44a9IQUuIwGYiXtWvw2spRRGLRc5Xd62/vfDg==}
+    dev: false
+
   /react-slick/0.28.1_react-dom@17.0.1+react@17.0.1:
     resolution: {integrity: sha512-JwRQXoWGJRbUTE7eZI1rGIHaXX/4YuwX6gn7ulfvUZ4vFDVQAA25HcsHSYaUiRCduTr6rskyIuyPMpuG6bbluw==}
     peerDependencies:
@@ -13342,6 +13350,11 @@ packages:
       unquote: 1.1.1
       util.promisify: 1.0.1
     dev: true
+
+  /swiper/11.1.15:
+    resolution: {integrity: sha512-IzWeU34WwC7gbhjKsjkImTuCRf+lRbO6cnxMGs88iVNKDwV+xQpBCJxZ4bNH6gSrIbbyVJ1kuGzo3JTtz//CBw==}
+    engines: {node: '>= 4.7.0'}
+    dev: false
 
   /symbol-tree/3.2.4:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}

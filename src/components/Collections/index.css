@@ -16,20 +16,104 @@
   }
 }
 
+.collections-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 100%;
+}
+
+.clc-watch-img {
+  width: 400px;
+  height: 400px;
+}
+
+.clc-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1100px;
+  list-style-type: none;
+}
+
+.clc-detail-div {
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  color: #070707;
+}
+
+.side-view-p {
+  font-size: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  color: #859af7;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+}
+
+.series-p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #757780;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+}
+
+.price-p {
+  color: #757780;
+  font-size: 12px;
+}
+
+.cl-btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 1100px;
+}
+
+.clc-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8d9e0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #4e4d4d;
+  border-radius: 20px;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 @media screen and (min-width: 768px) {
   .offers-container {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 1440px;
-    height: 530px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    padding-right: 80px;
+  }
+
+  .slider-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
   .slider-img {
-    width: 1110px;
+    width: 300px;
     height: 320px;
     border-radius: 8px;
-    margin-left: 130px;
-    margin-top: 50px;
   }
 }
