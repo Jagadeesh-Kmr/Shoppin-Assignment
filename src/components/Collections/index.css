@@ -9,13 +9,35 @@
 .clc-watch-img {
   width: 400px;
   height: 400px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.watch-bg-display-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  backdrop-filter: blur(5px);
+  padding-bottom: 100px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.watch-display-div {
+  display: none;
 }
 
 .image-main-size-div {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
+  width: 100%;
   margin: 0px;
   padding: 0px;
 }
@@ -32,7 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1100px;
+  width: 100%;
   list-style-type: none;
 }
 
@@ -41,26 +63,28 @@
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  width: 220px;
-  margin-left: 20px;
+  width: 190px;
+  margin-left: 40px;
+  margin-right: 20px;
 }
 
 .clc-alu-img {
   width: 300px;
   height: 250px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .cl-li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 80px 0px 80px;
   width: 400px;
 }
 
 .clc-band-img {
   width: 100px;
-  height: 300px;
+  height: 350px;
 }
 
 .clc-detail-div {
@@ -70,6 +94,24 @@
   font-size: 15px;
   color: #070707;
   margin-top: 20px;
+}
+
+.clc-band-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.clc-band-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  list-style-type: none;
+}
+
+.cl-band-li {
+  margin: 0px;
 }
 
 .side-view-p {
@@ -101,7 +143,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  width: 1100px;
 }
 
 .clc-btn {
@@ -125,4 +166,125 @@
   border: 0;
   background-color: transparent;
   outline: none;
+}
+
+.back-home-btn {
+  background-color: transparent;
+  border: 2px solid #070707;
+  color: #070707;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+}
+
+.watch-big-img {
+  width: 280px;
+  height: 400px;
+}
+
+.apple-logo {
+  font-size: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .collections-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .image-main-size-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+  }
+
+  .clc-watch-img {
+    width: 250px;
+    height: 210px;
+  }
+
+  .watch-big-img {
+    width: 200px;
+    height: 280px;
+  }
+
+  .watch-detail-p {
+    font-size: 11px;
+  }
+
+  .mb-case-view {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .clc-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .clc-alu-img {
+    width: 250px;
+    height: 150px;
+    margin-right: 65px;
+    margin-bottom: 20px;
+  }
+
+  .clc-btn {
+    font-size: 10px;
+  }
+
+  .clc-band-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .clc-band-ul {
+    width: 340px;
+    margin-right: 35px;
+  }
+
+  .clc-band-img {
+    height: 250px;
+    width: 80px;
+  }
+
+  .band-btn {
+    display: none;
+  }
+
+  .watch-bg-display-div {
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 100px;
+    margin-top: 20px;
+  }
+
+  .apple-logo {
+    font-size: 150px;
+  }
+
+  .back-home-btn {
+    font-size: 15px;
+  }
+
+  .watch-mb-dis-div {
+    background-color: #ffffff;
+    width: 400px;
+    min-height: 100vh;
+    margin-bottom: 500px;
+    padding-bottom: 200px;
+  }
 }
