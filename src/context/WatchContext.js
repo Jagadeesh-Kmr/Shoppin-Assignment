@@ -1,7 +1,9 @@
 import React from 'react'
 
 const watchContext = React.createContext({
-  toggleWatch: () => {},
+  toggleWatchSaveBtn: () => {},
+  toggleWatchViewBtn: () => {},
+  toggleWatchSizeBtn: () => {},
 })
 
 export default watchContext

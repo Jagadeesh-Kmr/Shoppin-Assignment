@@ -5,6 +5,22 @@
   padding-top: 10px;
 }
 
+.selection-input {
+  text-align: center;
+  border: 0px;
+  font-size: 15px;
+  margin-right: 20px;
+  width: 90px;
+}
+
+.sl-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+}
+
 @media screen and (max-width: 767px) {
   .nav-header {
     flex-direction: column;
