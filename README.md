@@ -2,7 +2,8 @@ Constructed an engaging Apple Watch Studio Website, enabling users to save and v
 
 ● Built pages for Home, Header and Collections with React components, React Hooks and event handlers.
 
-Technologies used : React JS, JavaScript, HTML, CSS, Bootstrap, React Hooks
+Technologies Used
+● React JS, JS, CSS, Bootstrap, Routing, REST API Calls, Local Storage, JWT Token, Authorization, Authentication
 
 #Project-Explanation
 
